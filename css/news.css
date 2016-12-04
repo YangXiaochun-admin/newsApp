@@ -1,0 +1,127 @@
+html,body,ul,li,a,h1,h2,h3,h4,h5,h6,p{
+    margin:0;padding:0;
+    font-style: normal;list-style: none;
+}
+html,body{
+    font-size: 0.28rem;
+    width:100%;height:100%;background: #EDEDED;
+}
+a{
+    text-decoration: none;font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+.list-header{
+    width:100%;height:1.2rem;
+    background:#39706B;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.content-header{
+    width:100%;height:1.2rem;
+    background:#39706B;
+    line-height: 1.2rem;
+}
+.content-header a{
+    margin-right: 0;
+    margin-left: .2rem;
+}
+/*内容页*/
+.content{
+    width:100%;height:10.8rem;
+    padding:0.28rem 0.28rem 0 0.28rem ;
+    background: #F9F9F9;
+}
+.header a{
+    font-size: .5rem;font-weight:bold;color:#fff;
+    margin-right: .3rem;
+}
+.content-content .title{
+    font-size: 0.37rem!important;margin-bottom:0.28rem;
+}
+.user{
+    width:100%;height:0.6px;
+}
+.user .user-img{
+    width:0.6rem;height:0.6rem;float: left;
+    margin-right:.3rem;
+}
+.user .user-xx{
+    width:2.5rem;height:0.56rem;
+}
+.user .user-xx .id,.user .user-xx .time{
+    color:#ccc;float: left;
+}
+.news{
+    width:100%;height:auto;
+    margin-top: 1rem;line-height: .4rem;
+}
+.news img{
+    width:100%;height:2.81rem;
+}
+.bottom{
+    width:6.7rem;height:.6rem;margin:auto;
+    line-height: .6rem;
+    text-align: center;margin-top: .4rem;
+}
+.bottom .write,.bottom .replay,.bottom .join{
+    float: left;
+}
+
+/*list*/
+.mk{
+    width:100%;height:3.28rem;border-bottom:0.03rem solid #666;
+}
+.mk .title,.mk .lists,.mk .user{
+    padding:0.2rem 0.28rem 0 0.28rem ;
+}
+.mk .user .user-xx{
+    float: right;
+}
+.mk .user .user-xx .id{
+    margin-right: .3rem;
+}
+.list-content{
+    padding:0;
+}
+.lists img{
+    width:2.06rem;height:1.5rem;
+}
+.list-bottom{
+    width:5.24rem;
+}
+.list-bottom a{
+    font-size: .5rem!important;font-weight:bold;color:#000!important;
+}
+.bottom .zixun,.bottom .luntan,.bottom .my{
+    display: block;
+    float: left;margin-right: .7rem;
+}
+/*首页*/
+.swiper-container,.swiper-container img {
+    width: 100%;
+    height: 4.08rem;
+}
+.index-content .mk{
+    margin-top: .3rem;
+    height:2.3rem!important;
+}
+
+.session,.session img,.session-right{
+    height: 1.22rem;
+}
+.session{
+    float: left;
+    width: 1.6rem;
+    margin-right: .3rem;
+}
+.index-content .title{
+    padding:0 0.28rem 0 0;
+}
+.index-content .time{
+    float: right;margin-top: .2rem;
+}
+.index-content .title,.index-content .lists{
+
+}
