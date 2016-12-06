@@ -22,7 +22,13 @@ $(function(){
         },
         onSlideChangeEnd: function(swiper){
             swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        },
+        onTouchStart: function(swiper,even){
+            if(swiper.activeIndex=="2"){
+                location.href="index1.html";
+            }
         }
+
     })
 
 })
